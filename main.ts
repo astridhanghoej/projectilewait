@@ -61,6 +61,6 @@ mySprite = sprites.create(img`
     ..cccc..............cfff.........
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
-timestampLastShot = 5000
+timestampLastShot = -5000
 console.log("Timestamp set to " + timestampLastShot)
 console.log("time since start (ms is)" + game.runtime())
